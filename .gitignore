@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+target/
+*.exe
+*.msi
+
+# Environment & credentials
+.env
+.env.*
+*.credentials*
+google-credentials*
+cookies.txt
+token*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+npm-debug.log*
+
+# Tauri dev
+src-tauri/target/
+
+# Large media (use Git LFS or external hosting)
+*.mp4
+*.m4a
+*.mov
+*.avi
